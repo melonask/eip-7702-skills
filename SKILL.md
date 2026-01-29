@@ -1,6 +1,6 @@
 ---
 name: eip-7702
-description: Expert guide for EIP-7702 implementation: implementing sponsored transactions, creating delegated smart contracts, and interacting via Viem v2. Use when needing to implement `gasless` token transfers via EIP-7702, create batching contracts, or understand the EIP-7702 transaction flow with Viem.
+description: Expert guide for EIP-7702 implementation, implementing sponsored transactions, creating delegated smart contracts, and interacting via Viem v2. Use when needing to implement `gasless` token transfers via EIP-7702, create batching contracts, or understand the EIP-7702 transaction flow with Viem.
 ---
 
 # EIP-7702 Implementation Guide
