@@ -1,6 +1,6 @@
 ---
 name: eip-7702
-description: Expert guide for EIP-7702 implementation: implementing sponsored transactions, creating delegated smart contracts, and interacting via Viem v2. Use when needing to implement "gasless" token transfers via EIP-7702, create batching contracts, or understand the EIP-7702 transaction flow with Viem.
+description: Expert guide for EIP-7702 implementation: implementing sponsored transactions, creating delegated smart contracts, and interacting via Viem v2. Use when needing to implement `gasless` token transfers via EIP-7702, create batching contracts, or understand the EIP-7702 transaction flow with Viem.
 ---
 
 # EIP-7702 Implementation Guide
@@ -51,13 +51,3 @@ Viem v2 provides first-class support for EIP-7702 via `signAuthorization` and `s
 - No experimental extensions are required in modern Viem versions.
 
 See [Viem Guide](references/viem-guide.md) for code snippets and TypeScript patterns.
-
-## Quick Start Commands
-
-To copy the reference implementation and integration test to your current directory:
-
-```bash
-cp assets/src/BatchCallAndSponsor.sol ../../../src/
-cp assets/test/BatchCallAndSponsor.t.sol ../../../test/
-cp assets/test-gasless.ts ../../../
-```
